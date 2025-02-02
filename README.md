@@ -36,4 +36,7 @@ docker run --rm -v $(pwd):/output term_giffer record my-session
 |----------|----------|----------|
 | --speed  | Playback speed multiplier   |  1x   |
 | --font-size | Font size in pixels  | 20   |
-| --output| 	Specify output directory |  Current working directory   |
+| --output | 	Specify output directory |  Current working directory   |
+| --duration | The duration (in seconds) for your gif |  30s   |
+
+
